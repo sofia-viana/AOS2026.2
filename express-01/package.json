@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Projeto de exemplo",
   "main": "src/index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
-  },
+ "type": "module",
+"scripts": {
+  "dev": "node --watch index.js",
+  "start": "node index.js"
+},
   "keywords": [
     "express",
     "UNICAP",
